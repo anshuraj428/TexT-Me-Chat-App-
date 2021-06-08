@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mirage"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/textme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TexT Me"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/_18sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:fontFamily="@font/poppinsregular"
+        android:textStyle="bold"
+        android:textSize="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_25sdp"/>
+    <TextView
+        android:id="@+id/connecting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textme"
+        android:text="Connecting Hearts"
+        android:textColor="@color/orange"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="-20dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/chat"
+        android:layout_below="@+id/connecting"
+        android:layout_marginBottom="@dimen/_150sdp"/>
+
+
+    <Button
+        android:id="@+id/loginhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/connecting"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_400sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/poppinslight"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20sdp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/registerhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/poppinslight"
+        android:textColor="@color/white"
+        android:layout_below="@+id/loginhome"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="-3dp"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp">
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>
